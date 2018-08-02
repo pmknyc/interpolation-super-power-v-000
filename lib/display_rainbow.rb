@@ -1,11 +1,11 @@
 # Write your #display_rainbow method here
 
-# Call colors list with argument (list)
+# Call colors colors with argument (colors)
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-def display_rainbow(list)
-  puts "R: #{list[0]}  O: #{list[1]}  Y: #{list[2]}  G: #{list[3]}  B: #{list[4]}  I: #{list[5]}  V: #{list[6]}" 
+def display_rainbow(colors)
+  puts "R: #{colors[0]}  O: #{colors[1]}  Y: #{colors[2]}  G: #{colors[3]}  B: #{colors[4]}  I: #{colors[5]}  V: #{colors[6]}" 
 end
 
 display_rainbow(colors)
